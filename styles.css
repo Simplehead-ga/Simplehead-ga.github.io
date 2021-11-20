@@ -1,4 +1,45 @@
-h1 {
-color: red;
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumb sans', sans-serif;
+}
+
+.navbar {
+ background: black;
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.2rem;
+ position: sticky;
+ top: 0;
+ z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo {
+    background-color: rgb(107, 155, 226);
+    background-image: linear-gradient(to, top , white 10% , rgb(84, 157, 216) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
 }
