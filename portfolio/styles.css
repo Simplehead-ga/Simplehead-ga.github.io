@@ -1,5 +1,4 @@
 .earth {
-  width: 500px;
   height: 300px;
   top: 0;
   bottom: 0;
@@ -8,6 +7,7 @@
   margin: auto;
   overflow: hidden;
   border-radius: 0%;
+  align-self: top;
   box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
 }
 
@@ -65,8 +65,4 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
-}
-.texts {
-  align-items: center;
-  color: rgb(229, 252, 229);
 }
