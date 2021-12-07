@@ -1,5 +1,4 @@
 .earth {
-  width: 500px;
   height: 300px;
   top: 0;
   bottom: 0;
@@ -7,7 +6,7 @@
   right: 0;
   margin: auto;
   overflow: hidden;
-  border-radius: 0%;
+  border-radius: 1%;
   box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
 }
 
