@@ -1,9 +1,9 @@
 .earth {
   height: 400px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 1px0;
+  bottom: 10px;
+  left: 100px;
+  right: 100px;
   margin: auto;
   overflow: hidden;
   border-radius: 100%;
@@ -18,8 +18,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: -20px -20px 50px 2px #000 inset;
-  border-radius: 0%;
+  box-shadow: 20px -20px 50px 2px rgb(0, 0, 0) inset;
+  border-radius: 100%;
 }
 
 .earth > div {
