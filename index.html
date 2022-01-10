@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simplehead</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
 </head>
 <body>
 
 
+
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark style="background-color: #1F1B24;"">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Simplehead</a>
+          <img src="https://avatars.githubusercontent.com/u/97424899?s=400&u=1b2275aa95311eccb316703d1e88b481d0360562&v=4" width="40" height="40" class="d-inline-block align-top" alt="">
+
+          <a class="navbar-brand" href="#">Simplehead</a> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,6 +40,8 @@
             </ul>
             <form class="d-flex">
                 <a href="https://github.com/simplystudios" class="btn btn-primary">Github</a>
+                
+                
             </form>
           </div>
         </div>
@@ -42,22 +52,33 @@
       <div class="mt-4 p-5 bg-dark text-white rounded text-center">
         <h1>Hey There, Welcome To Simplehead</h1>
         <p>Site For Projects And Examples</p>
-        <a href="https://github.com/simplystudios" class="btn btn-primary">Explore Projects</a>
+        <button class="mdc-button mdc-button--raised">
+          <span class="mdc-button__label">timeline</span>
+        </button>
       </div>
       <div class = "text-center">
       </div>
+
+      
     <div class="container mt-3">
         <div class="card">
-            <div class="card-body">Check my timeline by clicking the button</div>
-            <a href="/timeline/" class="btn btn-primary">See Timeline</a>
+            <div class="card-body">See how to make a 2d earth using css by clicking the link bellow</div>
+            
+            <button class="mdc-button mdc-button--raised">
+              <span class="mdc-button__label">CHECK MY Projects</span>
+            </button>
+            
+            
         </div>
-    
 
+        <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+          <script src="js/bootstrap.js"></script>
 
+<script> 
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>
 
-
-    
-    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
 </body>
 </html>
